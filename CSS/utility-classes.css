@@ -1,0 +1,52 @@
+/* border radius  */
+.radius {
+    border-radius: 7px;
+}
+
+/* display flex  */
+.flex {
+    display: flex;
+}
+
+/* justify content  */
+.justify {
+    justify-content: space-between;
+}
+
+/* padding */
+.p1 {
+    padding: 7px;
+}
+
+.p2{
+    padding: 25px;
+}
+
+/* margin */
+.m1 {
+    margin: 7px;
+}
+
+.m2{
+margin: 10px;
+}
+
+/* gap */
+g1 {
+    gap: 20px;
+}
+
+/* background color  */
+.bg-grey {
+    background-color: rgb(95, 94, 94);
+}
+
+/* align-items-center */
+.align{
+    align-items: center;
+}
+
+/* border */
+.border{
+    border: 2px solid rgb(238, 235, 238);
+}

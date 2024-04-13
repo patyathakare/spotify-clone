@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.1rem;
+    color: white;
+}
+
+/* main container those hold left and right both  container*/
+.container {
+    background-color: black;
+}
+
+
+/* left box */
+.left {
+    width: 25vw;
+}
+
+/* spotify logo img  */
+.left .logo img{
+    width: 120px;
+}
+
+
+/* home and search icon  */
+.left .home ul li{
+    list-style: none;
+    width: 100px;
+    gap: 20px;
+    display: flex;
+}
+
+.left ul li img{
+    height: 30px;
+}
+
+
+/* second div container those hold playlist library */
+.lib-container .plus-icon{
+ height: 7vh;
+
+}
+
+
+/* those div's which contains playlist  and podcasts buttons  */
+.overflow-scroll {
+    height: 25vh;
+    overflow: auto;
+}
+
+
+/* playlist library scroll bar  */
+.overflow-scroll div{
+background-color:rgba(39, 31, 31, 0.878);
+}
+
+/* playlist and podcasts buttons */
+.playlist-btn
+{
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: white;
+    color:black;
+    border: none;
+}
+
+
+/* left side container footer links  */
+.left .links ul 
+{
+    flex-wrap: wrap;
+    height: 10vh;
+    justify-content: space-around;
+li{
+  
+list-style: none;
+}
+a{
+    font-size: smaller;
+}
+}
+
+
+
+
+/* right box  */
+.right {
+    width: 75vw;
+}

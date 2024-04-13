@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Clone</title>
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/utility-classes.css">
     <link rel="stylesheet" href="CSS/media.css">
+    <link rel="stylesheet" href="CSS/utility-classes.css">
 </head>
 
 <body>
-    <div class="container p1">
+    <div class="container p1 flex justify gap">
         <div class="left">
 
             <div class="home p2 radius bg-grey">
@@ -24,22 +24,22 @@
                 </ul>
             </div>
 
-            <div class="lib-container bg-grey m1 radius p2">
+            <div class="lib-container bg-grey  radius p2">
                 <div class="plus-icon align flex justify  ">
                     <span>Your Library</span>
                     <span>+</span>
                 </div>
 
                 <div class="overflow-scroll">
-                    <div class="p1 m2 radius">
+                    <div class="p1 m1 radius">
                         <p>Create your first playlist </p>
                         <p>It's easy, we'll help you </p>
                         <button class="playlist-btn">
                             Create playlist
                         </button>
-                    </div >
+                    </div>
 
-                    <div class="p1 m2 radius">
+                    <div class="p1 m1 radius">
                         <p>Let's find some podcasts to follow </p>
                         <p>We'll keep you updated on new episodes</p>
                         <button class="playlist-btn">
@@ -48,7 +48,7 @@
                     </div>
 
                 </div>
-                
+
                 <div class="links m2">
                     <ul class="flex">
                         <li><a href="#">Legal</a></li>
@@ -61,17 +61,114 @@
                     </ul>
                 </div>
 
+                <div>
+                    <button class="lang-btn"> English</button>
+                </div>
+
             </div>
 
+        </div>
 
 
 
+        <div class="right bg-grey radius">
+
+            <nav class="navbar flex justify align">
+                <div class="nav-btn ">
+                    <span>&lt;</span>
+                    <span>&gt;</span>
+                </div>
+
+                <div class="sign-login">
+                    <button class="sign-up btn">Sign up</button>
+                    <button class="sign-in btn">Log in</button>
+                </div>
+            </nav>
+
+            <section class="content p2">
+
+                <div class="singers-container">
+                    <div class="artist-list flex justify">
+                        <h2><a href="#">Popular artists</a></h2>
+                        <p><a href="#">Show all</a></p>
+                    </div>
+
+                    <div class="hero flex justify ">
+
+                        <div class="main-box p1 cursor">
+                            <div class="img-box">
+                                <img src="images/Artist/pritam.jpeg" alt="">
+                                <button class="play-btn " title="play">DD</button>
+                            </div>
+                            <div class="hero-info">
+                                <p class="hero-name">Pritam</p>
+                                <p class="label"> Artist</p>
+                            </div>
+                        </div>
+
+                        <div class="main-box p1 cursor ">
+                            <div class="img-box">
+                                <img src="images/Artist/arjit singh.jpeg" alt="">
+                                <button class="play-btn " title="play">DD</button>
+                            </div>
+                            <div class="hero-info">
+                                <p class="hero-name">Pritam</p>
+                                <p class="label"> Artist</p>
+                            </div>
+                        </div>
+
+                        <div class="main-box p1 cursor">
+                            <div class="img-box">
+                                <img src="images/Artist/a.r.rehman.jpeg" alt="">
+                                <button class="play-btn " title="play">DD</button>
+                            </div>
+                            <div class="hero-info">
+                                <p class="hero-name">Pritam</p>
+                                <p class="label"> Artist</p>
+                            </div>
+                        </div>
+
+                        <div class="main-box p1 cursor">
+                            <div class="img-box">
+                                <img src="images/Artist/vishal mishra.jpeg" alt="">
+                                <button class="play-btn " title="play">DD</button>
+                            </div>
+                            <div class="hero-info">
+                                <p class="hero-name">Pritam</p>
+                                <p class="label"> Artist</p>
+                            </div>
+                        </div>
+
+                        <div class="main-box p1 cursor">
+                            <div class="img-box">
+                                <img src="images/Artist/anirudha ravichander.jpeg" alt="">
+                                <button class="play-btn " title="play">DD</button>
+                            </div>
+                            <div class="hero-info">
+                                <p class="hero-name">Pritam</p>
+                                <p class="label"> Artist</p>
+                            </div>
+                        </div>
+
+                        <div class="main-box p1 cursor">
+                            <div class="img-box">
+                                <img src="images/Artist/vishal-shekhar.jpeg" alt="">
+                                <button class="play-btn " title="play">DD</button>
+                            </div>
+                            <div class="hero-info">
+                                <p class="hero-name">Pritam</p>
+                                <p class="label"> Artist</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>            
 
         </div>
 
-        <div class="right bg-grey">
-
-        </div>
     </div>
 
 </body>

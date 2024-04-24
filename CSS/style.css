@@ -162,7 +162,7 @@ display: block;
 }
 
 
-.hero .main-box img{
+.hero .main-box .img-box img{
     width: 10vw;
     border-radius: 50%;
 }
@@ -175,10 +175,17 @@ position: absolute;
 right: 11px;
 top: 106px;
 border: none;
-border-radius: 50%;
+border-radius: 100%;
 cursor: pointer;
 display: none ;
 }
+
+.hero .main-box  .play-btn img {
+width: 30px;
+position: relative;
+top: 3px;
+}
+
 
 h1 a:hover{
 text-decoration: underline;
@@ -201,5 +208,9 @@ text-decoration: none;
 
 
 .albums-container .hero .main-box img{
+    border-radius: 7px;
+}
+
+.radio-container .hero .main-box img{
     border-radius: 7px;
 }

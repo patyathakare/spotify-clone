@@ -11,45 +11,49 @@
 </head>
 
 <body>
+    <!-- left side container -->
     <div class="container p1 flex justify gap">
         <div class="left">
 
+            <!-- spotify logo and home search button  -->
             <div class="home p2 radius bg-grey">
                 <div class="logo">
                     <img src="images/spotify-logo.png" alt="">
                 </div>
                 <ul>
-                    <li class="p1 align"><img src="icons/home-icon.svg" alt="">Home</li>
-                    <li class="p1 align"><img src="icons/search-icon.svg" alt="">Search</li>
+                    <li class="p1 align weight text-grey cursor"><img src="icons/home-icon.svg" alt="">Home</li>
+                    <li class="p1 align weight  text-grey cursor"><img src="icons/search-icon.svg" alt="">Search</li>
                 </ul>
             </div>
 
+            <!-- library div -->
             <div class="lib-container bg-grey  radius p2">
                 <div class="plus-icon align flex justify  ">
-                    <h2>Your library</h2> <img src="icons/plus-icon.svg" alt="">
+                    <div class="flex gap">
+                        <img src="icons/lib-add-icon.svg" alt="">
+                        <h3 class="text-grey cursor" title="Collapse Your library">Your library</h3>
+                    </div>
+                    <img src="icons/plus-icon.svg" alt="">
                 </div>
 
-                <div class="overflow-scroll">
-                    <div class="p1 m1 radius">
-                        <p>Create your first playlist </p>
-                        <p>It's easy, we'll help you </p>
-                        <button class="playlist-btn">
-                            Create playlist
-                        </button>
+                <!-- playlist scrollbar section  -->
+                <div class="overflow-scroll ">
+                    <div class="p2 m1 radius">
+                        <h4 class="weight">Create your first playlist </h4>
+                        <p class="weight text-small text-white m1">It's easy, we'll help you </p>
+                        <button class="playlist-btn"> Create playlist </button>
                     </div>
 
-                    <div class="p1 m1 radius">
-                        <p>Let's find some podcasts to follow </p>
-                        <p>We'll keep you updated on new episodes</p>
-                        <button class="playlist-btn">
-                            Browse podcasts
-                        </button>
+                    <div class="p2 m1 radius">
+                        <h4 class="weight "> Let's find some podcasts to follow </h4>
+                        <p class="text-small weight  text-white m1">We'll keep you updated on new episodes</p>
+                        <button class="playlist-btn weight"> Browse podcasts </button>
                     </div>
-
                 </div>
 
-                <div class="links m2">
-                    <ul class="flex">
+                <!-- list links in left container -->
+                <div class="links m2 p1">
+                    <ul class="flex ">
                         <li><a href="#">Legal</a></li>
                         <li><a href="#">Safety & Privacy Center </a></li>
                         <li><a href="#">Privacy Policy </a></li>
@@ -61,21 +65,20 @@
                 </div>
 
                 <div>
-                    <button class="lang-btn"> English</button>
+                    <button class="lang-btn gap p1 weight text-white cursor "> <img src="icons/lang-eng.svg" alt=""> English</button>
                 </div>
 
             </div>
 
         </div>
 
-
-
+<!-- right side container which contain artist list  -->
         <div class="right radius">
 
             <nav class="navbar flex justify bg-grey align">
                 <div class="nav-btn ">
-                    <span><img src="icons/less-than.svg" alt="" style="background-color: white;;"></span>
-                    <span><img src="icons/greater-than.svg than.png" alt=""></span>
+                    <span><img src="icons/less-than.svg" alt="" ></span>
+                    <span><img src="icons/greater-than.svg" alt=""></span>
                 </div>
 
                 <div class="sign-login">
@@ -194,7 +197,7 @@
                         <div class="main-box  cursor">
                             <div class="img-box">
                                 <img src="images/albums/still rollin.jpeg" alt="">
-                              <button class="play-btn " title="play"><img src="icons/play-btn.svg" alt=""></button>
+                                <button class="play-btn " title="play"><img src="icons/play-btn.svg" alt=""></button>
                             </div>
                             <div class="hero-info">
                                 <h4 ">Still Rollin</h4>
@@ -238,7 +241,7 @@
                         <div class="main-box  cursor">
                             <div class="img-box">
                                 <img src="images/albums/aashiqui 2.jpeg" alt="">
-                               <button class="play-btn " title="play"><img src="icons/play-btn.svg" alt=""></button>
+                                <button class="play-btn " title="play"><img src="icons/play-btn.svg" alt=""></button>
                             </div>
                             <div class="hero-info">
                                 <h4 ">Aashiqui 2 </h4>
@@ -268,8 +271,8 @@
                                 <button class="play-btn " title="play"><img src="icons/play-btn.svg" alt=""></button>
                             </div>
                             <div class="hero-info">
-                                <h4 ">ANIMAL </h4>
-                                <p class=" label"> </p>
+                                <h4 ">Pritam Radio </h4>
+                                <p class=" label"> With Santosh Narayan</p>
                             </div>
                         </div>
 
@@ -279,8 +282,8 @@
                                 <button class="play-btn " title="play"><img src="icons/play-btn.svg" alt=""></button>
                             </div>
                             <div class="hero-info">
-                                <h4 ">Still Rollin</h4>
-                                <p class=" label"> Artist</p>
+                                <h4 ">Alka Yagnik Radio </h4>
+                                <p class=" label">With Sonu Nigam, Sunidhi Chauhan </p>
                             </div>
                         </div>
 
@@ -290,30 +293,30 @@
                                 <button class="play-btn " title="play"><img src="icons/play-btn.svg" alt=""></button>
                             </div>
                             <div class="hero-info">
-                                <h4 ">Ek tha Raja </h4>
-                                <p class=" label"> Artist</p>
+                                <h4 ">Honey Singh Radio  </h4>
+                                <p class=" label"> Hiphop</p>
                             </div>
                         </div>
 
                         <div class="main-box  cursor">
                             <div class="img-box">
                                 <img src="images/radio/shubh.png" alt="">
-                                 <button class="play-btn " title="play"><img src="icons/play-btn.svg" alt=""></button>
+                                <button class="play-btn " title="play"><img src="icons/play-btn.svg" alt=""></button>
                             </div>
                             <div class="hero-info">
-                                <h4 ">Moosetape </h4>
-                                <p class=" label"> Artist</p>
+                                <h4 ">Shubh Radio</h4>
+                                <p class=" label">With Garry Sandhu, Ranjit Bawa </p>
                             </div>
                         </div>
 
                         <div class="main-box  cursor">
                             <div class="img-box">
                                 <img src="images/radio/sidhu musevala.png" alt="">
-                                 <button class="play-btn " title="play"><img src="icons/play-btn.svg" alt=""></button>
+                                <button class="play-btn " title="play"><img src="icons/play-btn.svg" alt=""></button>
                             </div>
                             <div class="hero-info">
-                                <h4 ">Ghost </h4>
-                                <p class=" label"> Artist</p>
+                                <h4 ">Sidhu Moosewala Radio </h4>
+                                <p class=" label">Punjabi Singer </p>
                             </div>
                         </div>
 
@@ -323,8 +326,8 @@
                                 <button class="play-btn " title="play"><img src="icons/play-btn.svg" alt=""></button>
                             </div>
                             <div class="hero-info">
-                                <h4 ">Aashiqui 2 </h4>
-                                <p class=" label"> Artist</p>
+                                <h4 ">Udit Narayan Radio  </h4>
+                                <p class=" label"> With Kumar Sanu, Alka Yagnik, Anuradha...</p>
                             </div>
                         </div>
 
@@ -349,6 +352,17 @@
 
         </div>
 
+    </div>
+
+    <div class="footer flex justify align text-white weight ">
+        <div>
+            <p>Preview of Spotify </p>
+            <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+        </div>
+
+        <div>
+            <button class="btn "> Sign up for free</button>
+        </div>
     </div>
 
 </body>

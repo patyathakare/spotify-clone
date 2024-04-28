@@ -77,3 +77,32 @@ margin: 10px;
 .content-padding{
     margin-bottom: 50px;
 }
+
+.weight{
+    font-weight: 600;
+}
+
+.c-grey{
+    color: grey;
+}
+
+.text-grey{
+    color: grey;
+}
+
+.text-grey:hover{
+    color: white;
+    transition: all 0.6s;
+}
+
+.text-white{
+    color: white;
+}
+
+.gap{
+    gap: 10px;
+}
+
+.text-small{
+    font-size: small;
+}

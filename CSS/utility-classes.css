@@ -82,6 +82,7 @@ margin: 10px;
     font-weight: 600;
 }
 
+/* text color grey */
 .c-grey{
     color: grey;
 }
@@ -95,14 +96,18 @@ margin: 10px;
     transition: all 0.6s;
 }
 
+/* text color white  */
 .text-white{
     color: white;
 }
 
+/* gap in content  */
 .gap{
     gap: 10px;
 }
 
+
+/* text small */
 .text-small{
     font-size: small;
 }
